@@ -1,0 +1,76 @@
+diff --git a/node_modules/@theia/core/src/browser/style/variables-bright.useable.css b/node_modules/@theia/core/src/browser/style/variables-bright.useable.css
+index 9eb4f60..e51ce28 100644
+--- a/node_modules/@theia/core/src/browser/style/variables-bright.useable.css
++++ b/node_modules/@theia/core/src/browser/style/variables-bright.useable.css
+@@ -33,20 +33,20 @@ is not optimized for dense, information rich UIs.
+ 
+   --theia-ui-font-scale-factor: 1.2;
+   --theia-ui-font-size0: calc(var(--theia-ui-font-size1) / var(--theia-ui-font-scale-factor));
+-  --theia-ui-font-size1: 13px; /* Base font size */
++  --theia-ui-font-size1: 10px; /* Base font size */
+   --theia-ui-font-size2: calc(var(--theia-ui-font-size1) * var(--theia-ui-font-scale-factor));
+   --theia-ui-font-size3: calc(var(--theia-ui-font-size2) * var(--theia-ui-font-scale-factor));
+-  --theia-ui-icon-font-size: 14px; /* Ensures px perfect FontAwesome icons */
++  --theia-ui-icon-font-size: 10px; /* Ensures px perfect FontAwesome icons */
+   --theia-ui-font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+ 
+   /* Content fonts
+      Content font variables are used for typography of user-generated content.
+   */
+ 
+-  --theia-content-font-size: 13px;
++  --theia-content-font-size: 10px;
+   --theia-content-line-height: 22px;
+ 
+-  --theia-code-font-size: 13px;
++  --theia-code-font-size: 10px;
+   --theia-code-line-height: 17px;
+   --theia-code-padding: 5px;
+   --theia-code-font-family: Menlo, Monaco, Consolas, "Droid Sans Mono", "Courier New", monospace, "Droid Sans Fallback";
+@@ -86,7 +86,7 @@ is not optimized for dense, information rich UIs.
+   --theia-scrollbar-rail-width: 10px;
+ 
+   /* Statusbar */
+-  --theia-statusBar-font-size: 12px;
++  --theia-statusBar-font-size: 10px;
+ 
+   /* Opacity for disabled mod  */
+   --theia-mod-disabled-opacity: 0.4;
+diff --git a/node_modules/@theia/core/src/browser/style/variables-dark.useable.css b/node_modules/@theia/core/src/browser/style/variables-dark.useable.css
+index 86afd7f..afe22c8 100644
+--- a/node_modules/@theia/core/src/browser/style/variables-dark.useable.css
++++ b/node_modules/@theia/core/src/browser/style/variables-dark.useable.css
+@@ -33,20 +33,20 @@ is not optimized for dense, information rich UIs.
+ 
+   --theia-ui-font-scale-factor: 1.2;
+   --theia-ui-font-size0: calc(var(--theia-ui-font-size1) / var(--theia-ui-font-scale-factor));
+-  --theia-ui-font-size1: 13px; /* Base font size */
++  --theia-ui-font-size1: 10px; /* Base font size */
+   --theia-ui-font-size2: calc(var(--theia-ui-font-size1) * var(--theia-ui-font-scale-factor));
+   --theia-ui-font-size3: calc(var(--theia-ui-font-size2) * var(--theia-ui-font-scale-factor));
+-  --theia-ui-icon-font-size: 14px; /* Ensures px perfect FontAwesome icons */
++  --theia-ui-icon-font-size: 10px; /* Ensures px perfect FontAwesome icons */
+   --theia-ui-font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+ 
+   /* Content fonts: Family, size and color (bright to dark)
+      Content font variables are used for typography of user-generated content.
+   */
+ 
+-  --theia-content-font-size: 13px;
++  --theia-content-font-size: 10px;
+   --theia-content-line-height: 22px;
+ 
+-  --theia-code-font-size: 13px;
++  --theia-code-font-size: 10px;
+   --theia-code-line-height: 17px;
+   --theia-code-padding: 5px;
+   --theia-code-font-family: Menlo, Monaco, Consolas, "Droid Sans Mono", "Courier New", monospace, "Droid Sans Fallback";
+@@ -86,7 +86,7 @@ is not optimized for dense, information rich UIs.
+   --theia-scrollbar-rail-width: 10px;
+ 
+   /* Statusbar */
+-  --theia-statusBar-font-size: 12px;
++  --theia-statusBar-font-size: 10px;
+ 
+   /* Opacity for disabled mod  */
+   --theia-mod-disabled-opacity: 0.4;

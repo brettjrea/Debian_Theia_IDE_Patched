@@ -1,0 +1,15 @@
+diff --git a/node_modules/@theia/filesystem/src/browser/style/file-dialog.css b/node_modules/@theia/filesystem/src/browser/style/file-dialog.css
+index bcb4963..fa7417f 100644
+--- a/node_modules/@theia/filesystem/src/browser/style/file-dialog.css
++++ b/node_modules/@theia/filesystem/src/browser/style/file-dialog.css
+@@ -21,8 +21,8 @@
+ .dialogContent .theia-FileDialog,
+ .dialogContent .theia-SaveFileDialog,
+ .dialogContent .theia-ResponsiveFileDialog { 
+-    height: 500px;
+-    width: 500px;
++    height: 80vh;
++    width: 80vw;
+     border: 1px solid var(--theia-editorWidget-border);
+     background: var(--theia-dropdown-background);
+ }
