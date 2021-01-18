@@ -40,6 +40,19 @@ wget https://raw.githubusercontent.com/brettjrea/Debian_Theia_IDE/master/setting
 
 ```
 mkdir ~/theia
+mkdir ~/theia/patches/
+cd ~/theia/patches/
+```
+
+```
+wget https://raw.githubusercontent.com/brettjrea/Debian_Theia_IDE_Patched/main/%40theia%2Bcore%2B1.10.0-next.31d47498.patch
+```
+
+```
+wget https://raw.githubusercontent.com/brettjrea/Debian_Theia_IDE_Patched/main/%40theia%2Bfilesystem%2B1.10.0-next.31d47498.patch
+```
+
+```
 cd ~/theia/
 ```
 
@@ -48,7 +61,7 @@ wget https://raw.githubusercontent.com/brettjrea/Debian_Theia_IDE/master/package
 ```
 
 ```
-yarn
+yarn add patch-package postinstall-postinstall
 ```
 
 ```
