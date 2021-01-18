@@ -1,5 +1,5 @@
-# Debian_Theia_IDE
-Commands to run Theia IDE on Debian Linux.
+# Debian_Theia_IDE_Patched
+Commands to run Theia IDE on Debian Linux with patches for mobile usability.
 
 ```
 sudo apt update -y && sudo apt upgrade -y && sudo apt autoremove -y
