@@ -24,7 +24,8 @@
     "clean": "theia clean",
     "build": "theia build --mode development",
     "start": "theia start --plugins=local-dir:plugins",
-    "download:plugins": "theia download:plugins"
+    "download:plugins": "theia download:plugins",
+    "postinstall": "patch-package"
   },
   "theiaPluginsDir": "plugins",
   "theiaPlugins": {
