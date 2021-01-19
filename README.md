@@ -22,7 +22,7 @@ export NVM_DIR="$HOME/.nvm"
 
 
 ```
-nvm install Erbium
+nvm install 12.20.1
 ```
 
 ```
@@ -35,7 +35,7 @@ cd ~/.theia
 ```
 
 ```
-wget https://raw.githubusercontent.com/brettjrea/Debian_Theia_IDE/master/settings.json
+wget https://raw.githubusercontent.com/brettjrea/Debian_Theia_IDE_Patched/master/settings.json
 ```
 
 ```
@@ -57,7 +57,7 @@ cd ~/theia/
 ```
 
 ```
-wget https://raw.githubusercontent.com/brettjrea/Debian_Theia_IDE/master/package.json
+wget https://raw.githubusercontent.com/brettjrea/Debian_Theia_IDE_Patched/master/package.json
 ```
 
 ```
