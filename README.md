@@ -71,3 +71,16 @@ yarn theia build
 ```
 yarn start /my-workspace --hostname 0.0.0.0 --port 8080
 ```
+
+*When using multiple versions of node you can set the default necessary for this app with the following command.*
+
+```
+nvm alias default 12.20.1
+```
+
+*Quickly start after a shutdown or reboot.*
+
+```
+cd ~/theia/
+yarn start /my-workspace --hostname 0.0.0.0 --port 8080
+```
