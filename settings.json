@@ -1,5 +1,5 @@
 {
-    "keyboard.dispatch": "keyboard",
+    "keyboard.dispatch": "keycode",
     "workbench.colorTheme": "Visual Studio Dark",
     "workbench.iconTheme": "none",
     "editor.minimap.enabled": false,
